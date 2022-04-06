@@ -128,6 +128,18 @@
                             var mysong = document.getElementById("abad");
                             var playg = document.getElementById("iii");
                             playg.onclick = function () {
+
+                                if(!mysong2.paused)
+                                {
+                                    mysong2.pause();
+                                    playg2.src = "pic/play.png";
+                                }
+                                if(!mysong3.paused)
+                                {
+                                    mysong3.pause();
+                                    playg3.src = "pic/play.png";
+                                }
+
                                 if (mysong.paused) {
                                     mysong.play();
                                     playg.src = "pic/pause.png";
@@ -160,6 +172,18 @@
                             var mysong2 = document.getElementById("hardum");
                             var playg2 = document.getElementById("iii2");
                             playg2.onclick = function () {
+
+                                if(!mysong.paused)
+                                {
+                                    mysong.pause();
+                                    playg.src = "pic/play.png";
+                                }
+                                if(!mysong3.paused)
+                                {
+                                    mysong3.pause();
+                                    playg3.src = "pic/play.png";
+                                }
+
                                 if (mysong2.paused) {
                                     mysong2.play();
                                     playg2.src = "pic/pause.png";
@@ -192,6 +216,18 @@
                             var mysong3 = document.getElementById("position");
                             var playg3 = document.getElementById("iii3");
                             playg3.onclick=function(){
+
+                                if(!mysong.paused)
+                                {
+                                    mysong.pause();
+                                    playg.src = "pic/play.png";
+                                }
+                                if(!mysong2.paused)
+                                {
+                                    mysong2.pause();
+                                    playg2.src = "pic/play.png";
+                                }
+
                                 if (mysong3.paused) {
                                     mysong3.play();
                                     playg3.src="pic/pause.png";
